@@ -58,12 +58,21 @@
             <label for="industria">Industria</label>
             <br><br>
 
-            <label for="tipoEmpresa">Tipo Empresa:</label>
-            <input type="text" id="tipoEmpresa" name="tipoEmpresa" placeholder="Micro, Pequeña, Mediana, Grande, Otros"
-                required>
+            <label>Tipo de Empresa:</label><br>
+            <input type="checkbox" id="micro" name="empresa" value="micro">
+            <label for="empresa">Micro</label>
+            <input type="checkbox" id="pequeña" name="empresa" value="pequeña">
+            <label for="empresa">pequeña</label>
+            <input type="checkbox" id="mediana" name="empresa" value="mediana">
+            <label for="empresa">mediana</label>
+            <input type="checkbox" id="grande" name="empresa" value="grande">
+            <label for="empresa">Grande</label>
+            <input type="checkbox" id="micro" name="empresa" value="Otros">
+            <label for="servicios">Otros</label>
             <br><br>
 
-            <input type="reset" value="Enviar" />
+            <input type="reset" value="Limpiar" />
+            <input type="submit" value="Registrar">
     </div>
     </form>
 </body>

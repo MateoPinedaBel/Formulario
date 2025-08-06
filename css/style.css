@@ -15,7 +15,17 @@ body {
     margin: auto;
     background: rgb(85, 183, 228);
     color: rgb(68, 9, 53);
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
     align-content: center;
+}
+
+input [type=reset],
+input [type=submit] {
+    width: 1000px;
+}
+
+label {
+    align-self: left;
+
 }
