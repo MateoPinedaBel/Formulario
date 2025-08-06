@@ -1,0 +1,21 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: rgb(132, 248, 242);
+    align-content: center;
+}
+
+.container {
+    width: 300px;
+    min-height: 250px;
+    margin: auto;
+    background: rgb(85, 183, 228);
+    color: rgb(68, 9, 53);
+    padding: 2rem;
+    text-align: center;
+    align-content: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <label for="tipoSociedad">Tipo Sociedad:</label>
+            <select id="tipoSociedad" name="tipoSociedad" required>
+                <option value="">Seleccione...</option>
+                <option value="natural">Persona Natural</option>
+                <option value="juridica">Persona Jurídica</option>
+            </select>
+            <br><br>
+
+            <label for="tipoDocumento">Tipo Documento:</label>
+            <select id="tipoDocumento" name="tipoDocumento" required>
+                <option value="">Seleccione...</option>
+                <option value="cc">Cédula Ciudadanía</option>
+                <option value="pasaporte">Pasaporte</option>
+                <option value="nit">NIT</option>
+                <option value="ce">Cédula Extranjería</option>
+            </select>
+            <br><br>
+
+            <label for="numeroIdentificacion">Número de Identificación:</label>
+            <input type="number" id="numeroIdentificacion" name="numeroIdentificacion" required>
+            <br><br>
+
+            <label for="nombre">Nombre o Razón Social:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+
+            <label for="apellido">Apellido (Opcional):</label>
+            <input type="text" id="apellido" name="apellido">
+            <br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required class="form-input rounded-full px-4 py-3" />
+            <br><br>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <label>Sector:</label><br>
+            <input type="checkbox" id="servicios" name="sector" value="servicios">
+            <label for="servicios">Servicios</label>
+            <input type="checkbox" id="comercio" name="sector" value="comercio">
+            <label for="comercio">Comercio</label>
+            <input type="checkbox" id="industria" name="sector" value="industria">
+            <label for="industria">Industria</label>
+            <br><br>
+
+            <label for="tipoEmpresa">Tipo Empresa:</label>
+            <input type="text" id="tipoEmpresa" name="tipoEmpresa" placeholder="Micro, Pequeña, Mediana, Grande, Otros"
+                required>
+            <br><br>
+
+            <input type="reset" value="Enviar" />
+    </div>
+    </form>
+</body>
